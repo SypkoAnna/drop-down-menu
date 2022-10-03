@@ -1,0 +1,73 @@
+body{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    margin: 0;
+}
+.menu{
+    background-color:rgb(163, 163, 255);
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+    display: inline-block;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+
+.list li{
+    transition: all 0.5s;
+}
+
+.list li:hover{
+    background-color: rgb(102, 102, 183);
+}
+
+.img{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.second-menu {
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(181, 111, 246);
+    width: 100%;
+    display: none;
+    box-shadow: 0 0 15px purple;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.second-menu li:hover{
+background-color: #fff;
+}
+
+.second-menu a{
+    font-size: 18px;
+}
+
+.second-menu li:hover a {
+    color: rgb(151, 71, 171);
+}
+
+.list li{
+    position: relative;
+}
+
+.list li:hover .second-menu{
+    display: block;
+}
